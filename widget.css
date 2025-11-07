@@ -1,0 +1,8 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+#app{padding:12px}h3{margin:0 0 8px;font-weight:600}
+#drop{border:2px dashed #c9c9c9;border-radius:12px;padding:22px;text-align:center;cursor:pointer;outline:0}
+#drop:focus{border-color:#666}#prompt{opacity:.85}
+#meta{font-size:12px;margin-top:8px;opacity:.75}
+#progressWrap{margin-top:12px;width:100%;height:10px;background:#eee;border-radius:8px;overflow:hidden}
+#progressBar{width:0;height:100%;background:#3b82f6;transition:width .2s linear}
+#error{margin-top:8px;color:#b00020;font-size:12px;display:none}
